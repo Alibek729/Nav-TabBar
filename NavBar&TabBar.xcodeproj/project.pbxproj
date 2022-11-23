@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67172651290E7F0300AEC378 /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717264F290E7F0300AEC378 /* MusicCollectionViewCell.swift */; };
+		67172652290E7F0300AEC378 /* MusicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67172650290E7F0300AEC378 /* MusicCollectionViewCell.xib */; };
+		67172654290E82D800AEC378 /* MusicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67172653290E82D800AEC378 /* MusicDetailViewController.swift */; };
+		676B08D8290E751B00FBCFCF /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676B08D6290E751B00FBCFCF /* BookCollectionViewCell.swift */; };
+		676B08D9290E751B00FBCFCF /* BookCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676B08D7290E751B00FBCFCF /* BookCollectionViewCell.xib */; };
+		676B08DB290E77E500FBCFCF /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676B08DA290E77E500FBCFCF /* BookDetailViewController.swift */; };
 		67E9B848290E496700EEE267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B847290E496700EEE267 /* AppDelegate.swift */; };
 		67E9B84A290E496700EEE267 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B849290E496700EEE267 /* SceneDelegate.swift */; };
-		67E9B84C290E496700EEE267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B84B290E496700EEE267 /* ViewController.swift */; };
+		67E9B84C290E496700EEE267 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B84B290E496700EEE267 /* MusicViewController.swift */; };
 		67E9B84F290E496700EEE267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E9B84D290E496700EEE267 /* Main.storyboard */; };
 		67E9B851290E496900EEE267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E9B850290E496900EEE267 /* Assets.xcassets */; };
 		67E9B854290E496900EEE267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E9B852290E496900EEE267 /* LaunchScreen.storyboard */; };
+		67E9B85C290E4AE600EEE267 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B85B290E4AE600EEE267 /* BookViewController.swift */; };
+		67E9B85E290E4AFC00EEE267 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B85D290E4AFC00EEE267 /* MovieViewController.swift */; };
+		67E9B860290E4C9200EEE267 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B85F290E4C9200EEE267 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6717264F290E7F0300AEC378 /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		67172650290E7F0300AEC378 /* MusicCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicCollectionViewCell.xib; sourceTree = "<group>"; };
+		67172653290E82D800AEC378 /* MusicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailViewController.swift; sourceTree = "<group>"; };
+		676B08D6290E751B00FBCFCF /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		676B08D7290E751B00FBCFCF /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
+		676B08DA290E77E500FBCFCF /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 		67E9B844290E496700EEE267 /* NavBar&TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NavBar&TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E9B847290E496700EEE267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67E9B849290E496700EEE267 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67E9B84B290E496700EEE267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67E9B84B290E496700EEE267 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		67E9B84E290E496700EEE267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67E9B850290E496900EEE267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E9B853290E496900EEE267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67E9B855290E496900EEE267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E9B85B290E4AE600EEE267 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		67E9B85D290E4AFC00EEE267 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		67E9B85F290E4C9200EEE267 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67172649290E7E4E00AEC378 /* BookPage */ = {
+			isa = PBXGroup;
+			children = (
+				67E9B85B290E4AE600EEE267 /* BookViewController.swift */,
+				676B08DA290E77E500FBCFCF /* BookDetailViewController.swift */,
+				676B08D6290E751B00FBCFCF /* BookCollectionViewCell.swift */,
+			);
+			path = BookPage;
+			sourceTree = "<group>";
+		};
+		6717264A290E7E6000AEC378 /* MoviePage */ = {
+			isa = PBXGroup;
+			children = (
+				67E9B85D290E4AFC00EEE267 /* MovieViewController.swift */,
+				67E9B85F290E4C9200EEE267 /* MovieDetailViewController.swift */,
+			);
+			path = MoviePage;
+			sourceTree = "<group>";
+		};
+		67172655290EBF5300AEC378 /* MusicPage */ = {
+			isa = PBXGroup;
+			children = (
+				67E9B84B290E496700EEE267 /* MusicViewController.swift */,
+				67172653290E82D800AEC378 /* MusicDetailViewController.swift */,
+				6717264F290E7F0300AEC378 /* MusicCollectionViewCell.swift */,
+			);
+			path = MusicPage;
+			sourceTree = "<group>";
+		};
 		67E9B83B290E496700EEE267 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +105,12 @@
 			children = (
 				67E9B847290E496700EEE267 /* AppDelegate.swift */,
 				67E9B849290E496700EEE267 /* SceneDelegate.swift */,
-				67E9B84B290E496700EEE267 /* ViewController.swift */,
+				6717264A290E7E6000AEC378 /* MoviePage */,
+				67172649290E7E4E00AEC378 /* BookPage */,
+				67172655290EBF5300AEC378 /* MusicPage */,
+				67172650290E7F0300AEC378 /* MusicCollectionViewCell.xib */,
 				67E9B84D290E496700EEE267 /* Main.storyboard */,
+				676B08D7290E751B00FBCFCF /* BookCollectionViewCell.xib */,
 				67E9B850290E496900EEE267 /* Assets.xcassets */,
 				67E9B852290E496900EEE267 /* LaunchScreen.storyboard */,
 				67E9B855290E496900EEE267 /* Info.plist */,
@@ -127,6 +178,8 @@
 			files = (
 				67E9B854290E496900EEE267 /* LaunchScreen.storyboard in Resources */,
 				67E9B851290E496900EEE267 /* Assets.xcassets in Resources */,
+				676B08D9290E751B00FBCFCF /* BookCollectionViewCell.xib in Resources */,
+				67172652290E7F0300AEC378 /* MusicCollectionViewCell.xib in Resources */,
 				67E9B84F290E496700EEE267 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E9B84C290E496700EEE267 /* ViewController.swift in Sources */,
+				67E9B84C290E496700EEE267 /* MusicViewController.swift in Sources */,
+				67E9B85E290E4AFC00EEE267 /* MovieViewController.swift in Sources */,
+				67E9B85C290E4AE600EEE267 /* BookViewController.swift in Sources */,
+				676B08D8290E751B00FBCFCF /* BookCollectionViewCell.swift in Sources */,
+				67172651290E7F0300AEC378 /* MusicCollectionViewCell.swift in Sources */,
 				67E9B848290E496700EEE267 /* AppDelegate.swift in Sources */,
+				67E9B860290E4C9200EEE267 /* MovieDetailViewController.swift in Sources */,
+				676B08DB290E77E500FBCFCF /* BookDetailViewController.swift in Sources */,
 				67E9B84A290E496700EEE267 /* SceneDelegate.swift in Sources */,
+				67172654290E82D800AEC378 /* MusicDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

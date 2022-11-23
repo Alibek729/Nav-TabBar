@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "the-joy-of-quitting.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
